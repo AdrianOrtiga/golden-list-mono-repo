@@ -4,14 +4,14 @@
   "version": "1.0.0",
   "description": "",
   "workspaces": [
-    "apiRest",
+    "goldenlistapi",
     "goldenlistapp"
   ],
   "main": "index.js",
   "scripts": {
     "build": "npm run build --workspace=goldenlistapp",
-    "start:api": "npm run start --workspace=apiRest",
-    "dev:api": "npm run build && npm run dev --workspace=apiRest"
+    "start:api": "npm run start --workspace=goldenlistapi",
+    "dev:api": "npm run build && npm run dev --workspace=goldenlistapi"
   },
   "eslintConfig": {
     "env": {
