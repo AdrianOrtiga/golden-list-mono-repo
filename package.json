@@ -5,11 +5,11 @@
   "description": "",
   "workspaces": [
     "apiRest",
-    "golden-list-app"
+    "goldenlistapp"
   ],
   "main": "index.js",
   "scripts": {
-    "build": "npm run build --workspace=golden-list-app",
+    "build": "npm run build --workspace=goldenlistapp",
     "start:api": "npm run start --workspace=apiRest",
     "dev:api": "npm run build && npm run dev --workspace=apiRest"
   },

@@ -21,7 +21,7 @@ const handleErrors = require('./middleware/handleErrors')
 app.use('/api/notes', notesRoute)
 app.use('/api/users', usersRoute)
 app.use('/api/login', loginRoute)
-app.use(express.static('../golden-list-app/build'))
+app.use(express.static('../goldenlistapp/build'))
 
 if (process.env.NODE_ENV === 'test') {
   const testingRoute = require('./routes/testing')
