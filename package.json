@@ -13,7 +13,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build --workspace=goldenlistapp",
-    "start:api": "npm run start --workspace=goldenlistapi",
+    "start": "npm run start --workspace=goldenlistapi",
     "dev:api": "npm run build && npm run dev --workspace=goldenlistapi"
   },
   "eslintConfig": {
